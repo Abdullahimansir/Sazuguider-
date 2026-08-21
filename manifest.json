@@ -1,0 +1,13 @@
+{
+  "name": "SAZUG Guider - Student Information",
+  "short_name": "SAZUG Guider",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d6b57",
+  "theme_color": "#0d6b57",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIj48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgZmlsbD0iIzBkNmI1NyIvPjx0ZXh0IHg9Ijk2IiB5PSIxMTgiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TRzwvdGV4dD48L3N2Zz4K", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIj48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgZmlsbD0iIzBkNmI1NyIvPjx0ZXh0IHg9Ijk2IiB5PSIxMTgiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TRzwvdGV4dD48L3N2Zz4K", "sizes": "512x512", "type": "image/svg+xml" }
+  ]
+}
