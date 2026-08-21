@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SAZUG Guider</title>
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0d6b57" />
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIj48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgZmlsbD0iIzBkNmI1NyIvPjx0ZXh0IHg9Ijk2IiB5PSIxMTgiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TRzwvdGV4dD48L3N2Zz4K" />
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIj48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgZmlsbD0iIzBkNmI1NyIvPjx0ZXh0IHg9Ijk2IiB5PSIxMTgiIGZvbnQtc2l6ZT0iNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TRzwvdGV4dD48L3N2Zz4K" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f3f5f7;
+    min-height: 100vh;
+  }
+  header {
+    background: #0d6b57;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px 44px;
+  }
+  header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  header p {
+    font-size: 15px;
+    opacity: 0.9;
+  }
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    max-width: 420px;
+    margin: -24px auto 24px;
+    padding: 28px 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  .card h2 {
+    color: #0d6b57;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .field {
+    margin-bottom: 18px;
+  }
+  .field .label {
+    color: #888;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .field .value {
+    color: #222;
+    font-size: 18px;
+    margin-top: 2px;
+  }
+  .footer {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    padding: 10px 20px 30px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>SAZUG Guider</h1>
+    <p>Student Information Application</p>
+  </header>
+
+  <div class="card">
+    <h2>Student Information</h2>
+
+    <div class="field">
+      <div class="label">Name</div>
+      <div class="value">Abdullahi Mansir</div>
+    </div>
+
+    <div class="field">
+      <div class="label">Matric Number</div>
+      <div class="value">CSEU/25/13443</div>
+    </div>
+
+    <div class="field">
+      <div class="label">Department</div>
+      <div class="value">Computer Science and Education</div>
+    </div>
+
+    <div class="field">
+      <div class="label">University</div>
+      <div class="value">Sa'adu Zungur University, Gadau</div>
+    </div>
+  </div>
+
+  <div class="footer">Android App Development Assignment</div>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('service-worker.js');
+    });
+  }
+</script>
+</body>
+</html>
